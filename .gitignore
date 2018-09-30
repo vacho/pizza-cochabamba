@@ -6,7 +6,7 @@ docroot/sites/*/private
 acquia-file
 /log
 docroot/sites/default/settings.local.php
-
+docroot/sites/default/settings.php
 
 # Ignore vim swp files and gedit temp files
 *.swp

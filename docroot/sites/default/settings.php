@@ -280,7 +280,7 @@ $config_directories = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'FaH6mNJD3DLI3BtnhXGIGd3CUD-XEM6fTFVS8571PrrxBCl475ZoxnX40dstDnn1Wh8SQk9nXg';
 
 /**
  * Deployment identifier.
@@ -768,3 +768,14 @@ $settings['entity_update_batch_size'] = 50;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+$databases['default']['default'] = array (
+  'database' => 'bddevpizzacochabamba',
+  'username' => 'root',
+  'password' => 'bdServer951',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$config_directories['sync'] = 'sites/default/files/config_8k6QePKD8bMcrzniqtctrQBnMqmHMelvMh-bGyaX2IfBEKGIUU7hftEpDK3n2Xtdx5JB4l-Khw/sync';
